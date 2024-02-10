@@ -16,3 +16,4 @@ def stringy(size):
     for i in range(1, size+1):
         s = s+str(i % 2)
     return s
+
