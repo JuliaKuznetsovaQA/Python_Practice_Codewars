@@ -13,3 +13,9 @@ def alphabet_position(text):
         else:
             continue
     return s.strip()
+
+
+# в одну строку:
+
+def alphabet_position_(text):
+    return ' '.join(str(ord(c) - 96) for c in text.lower() if c.isalpha())
