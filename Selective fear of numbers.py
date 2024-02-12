@@ -44,3 +44,4 @@ def am_I_afraid1(day, num):
         'Sunday': num == 666 or num == -666,
     }[day]
 
+  
