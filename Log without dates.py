@@ -1,6 +1,7 @@
-You will be given an array of events, which are represented by strings. The strings are dates in HH:MM:SS format.
+"""You will be given an array of events, which are represented by strings.
+The strings are dates in HH:MM:SS format.
 
-"""It is known that all events are recorded in chronological order 
+It is known that all events are recorded in chronological order
 and two events can't occur in the same second.
 
 Return the minimum number of days during which the log is written.
