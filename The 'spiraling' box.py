@@ -49,3 +49,4 @@ def create_box(m, n):
                 j1 = m - j - 1
             A[i][j] = min(i1, j1) + 1
     return A
+
