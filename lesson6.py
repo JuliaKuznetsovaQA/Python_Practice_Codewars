@@ -23,8 +23,10 @@ text = 'Th1sf робот module provides regular expression matching operations 
     'matches a given regular expression (or if a given regular expression matches a particular string, ' \
     'which comes down to the same thing).'
 
-pattern = r'\d'
+# pattern = r'\d'
+#
+# result = re.split(pattern, text)
+# print(result)
+# print(len(result))
 
-result = re.split(pattern, text)
-print(result)
-print(len(result))
+
